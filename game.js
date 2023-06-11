@@ -255,7 +255,7 @@ const config = {
     autoCenter: Phaser.Scale.CENTER_BOTH,
     parent: 'yourGameDiv',
     width: 800,
-    height: 600
+    height: 600,
     scene: [GlobalScene, RightNowScene, PastScene, FinalScene], //
     physics: {
       default: 'arcade',
