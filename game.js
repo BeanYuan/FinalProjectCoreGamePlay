@@ -253,7 +253,6 @@ class FinalScene extends Phaser.Scene {
 const config = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    parent: 'yourGameDiv',
     width: 800,
     height: 600,
     scene: [GlobalScene, RightNowScene, PastScene, FinalScene], //
